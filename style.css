@@ -3,54 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     color: rgba(34, 79, 52, 1);
     background: #f5f5f2;
 }
+
 .hero {
-background: rgba(194, 239, 212, 1);
+    background: rgba(194, 239, 212, 1);
     padding: 30px 8%;
     min-height: 880px;
 }
+
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: auto;
     height: 80px;
 }
+
 .header-right {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .bag {
     width: 40px;
     height: 40px;
     object-fit: contain;
 }
+
 header h2 {
     font: bold 28px Georgia;
 }
+
 nav {
-    color:rgba(34, 79, 52, 1);
+    color: rgba(34, 79, 52, 1);
     font-size: 15px;
 }
+
 button {
     background-color: rgba(34, 79, 52, 1);
-    color:white;
+    color: white;
     border: none;
     padding: 15px 35px;
     cursor: pointer;
 }
+
 .login {
     background: rgba(194, 239, 212, 1);
-    color: rgba(34, 79, 52, 1) ;
-    border: 2px solid rgba(34, 79, 52, 1) ;
+    color: rgba(34, 79, 52, 1);
+    border: 2px solid rgba(34, 79, 52, 1);
     padding: 12px 35px;
 }
+
 main {
     display: flex;
     justify-content: space-between;
@@ -58,15 +68,18 @@ main {
     max-width: 1200px;
     margin: 80px auto 0;
 }
+
 .text h1 {
     font: bold 56px Georgia;
     margin-bottom: 20px;
 }
+
 .text p {
     line-height: 30px;
     margin-bottom: auto;
     color: #267D49;
 }
+
 .picture {
     position: relative;
     width: 380px;
@@ -74,13 +87,15 @@ main {
     background: #6BC785;
     border-radius: 65px;
 }
+
 .picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 65px;
 }
-.dots{
+
+.dots {
     position: absolute;
     right: 20px;
     top: 100px;
@@ -89,25 +104,106 @@ main {
     line-height: 1.5;
     letter-spacing: 5px;
 }
+
 .selling {
     text-align: center;
     padding: 85px 8%;
 }
+
 .selling h2 {
     font: 40px Georgia;
     margin-bottom: 20px;
 }
+
 .selling p {
     margin-bottom: 45px;
 }
+
 .products {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .product img {
     width: 30%;
     height: 350px;
     object-fit: cover;
     border-radius: 5px;
+}
+body {
+    margin: 0;
+    padding: 60px 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    color: #373737;
+}
+.subtitle {
+    color: #373737;
+    font-size: 15px;
+    margin: 0 0 50px 0;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.card {
+    width: 300px;
+}
+.card img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 5px;
+}
+.card-1 img {
+    background-color: #93B9A2;
+}
+.card-2 img {
+    background-color: #A9D4BA;
+}
+.card-3 img {
+    background-color: #CADCD0;
+}
+.card h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #454545;
+}
+.card p {
+    font-size: 15px;
+    margin: 0;
+    color:#454545;
+}
+.star-img {
+    width: 5px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 5px;
+    display: inline-block;
+    object-fit: contain;
+}
+.btn {
+    padding: 15px 35px;
+    background-color: transparent;
+    border: 1px solid #224F34;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #454545;
+    color:white;
 }
